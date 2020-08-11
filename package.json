@@ -1,5 +1,5 @@
 {
-  "name": "youtube-channel-feed",
+  "name": "@obg-lab/youtube-channel-feed",
   "version": "0.1.1",
   "description": "Get Youtube Channel feed and parse to json",
   "main": "src/index.js",
