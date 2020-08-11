@@ -17,4 +17,24 @@ test("invalid channelId", async () => {
   }
 });
 
+test("null channelId", async () => {
+  try {
+    const feed = await getChannelFeed(null);
+    expect(feed).toBeUndefined();
+  } catch (err) {
+    expect(err).toBeDefined();
+    expect(err.message).toBe("Invalid channel ID");
+  }
+});
+
+test("undefined channelId", async () => {
+  try {
+    const feed = await getChannelFeed(undefined);
+    expect(feed).toBeUndefined();
+  } catch (err) {
+    expect(err).toBeDefined();
+    expect(err.message).toBe("Invalid channel ID");
+  }
+});
+
 // TODO: add more tests

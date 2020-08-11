@@ -29,7 +29,7 @@ const fetchFeed = async (channelId) => {
 
 exports.getChannelFeed = async (channelId) => {
   // TODO: Improve the channel ID validation
-  if (channelId.length < 1) {
+  if (!channelId || channelId.length < 1) {
     throw new Error("Invalid channel ID");
   }
 
