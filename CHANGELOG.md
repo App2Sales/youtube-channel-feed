@@ -7,7 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.2.0] - 2020-08-11
+## [0.2.2] - 2022-08-17
+
+### Bug Fixes
+
+- Runt `npm audit fix --force` to automatically upgrade vulnerable packages
+
+### Changed
+
+- Removed yarn and starting using npm by default
+- Removed the `develop` branch from the repo
+
+### Added
+
+- Added another test case to ensure invalid channel id is handled correctly
+
+## [0.2.1] - 2020-08-11
 
 ### Changed
 
