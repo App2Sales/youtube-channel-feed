@@ -37,4 +37,14 @@ test("undefined channelId", async () => {
   }
 });
 
+test("invalid channelId expect 404", async () => {
+  try {
+    const feed = await getChannelFeed("INVALID");
+    expect(feed).toBeUndefined();
+  } catch (err) {
+    expect(err).toBeDefined();
+    expect(err.message).toBe("Request failed with status code 404");
+  }
+})
+
 // TODO: add more tests
