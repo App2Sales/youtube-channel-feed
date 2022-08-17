@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Removed yarn and starting using npm by default
+- Removed the `develop` branch from the repo
 
 ### Added
 
