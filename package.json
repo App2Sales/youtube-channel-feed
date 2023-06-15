@@ -2,6 +2,9 @@
   "name": "@obg-lab/youtube-channel-feed",
   "version": "0.2.3",
   "description": "Get Youtube Channel RSS feed and parse to json",
+  "engines": {
+    "node": ">=16.0.0 <=19"
+  },
   "keywords": [
     "youtube",
     "rss",
