@@ -1,6 +1,6 @@
 {
   "name": "@obg-lab/youtube-channel-feed",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Get Youtube Channel RSS feed and parse to json",
   "keywords": [
     "youtube",
@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.27.2",
-    "xml2js": "^0.4.23"
+    "xml2js": "^0.6.0"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
