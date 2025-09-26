@@ -3,7 +3,7 @@
   "version": "0.2.4",
   "description": "Get Youtube Channel RSS feed and parse to json",
   "engines": {
-    "node": ">=16.0.0 <=19"
+    "node": ">=16.0.0 <=22"
   },
   "keywords": [
     "youtube",
